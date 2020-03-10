@@ -1,0 +1,5 @@
+export const Type = {
+    SAVE_CONTACT: 'SAVE_CONTACT',
+    DELETE_CONTACT: 'DELETE_CONTACT',
+    UPDATE_FILTER: 'UPDATE_FILTER',
+};
