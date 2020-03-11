@@ -1,11 +1,7 @@
-import { createStore, combineReducers } from 'redux';
+import { createStore } from 'redux';
 import { devToolsEnhancer } from 'redux-devtools-extension';
-import { phoneBookReducer } from "./phoneBookReducer";
+import { phoneBookReducer } from './phoneBookReducer';
 
-const rootReducer = combineReducers({
-  phoneBook: phoneBookReducer,
-});
-
-const store = createStore(rootReducer, devToolsEnhancer());
+const store = createStore(phoneBookReducer, devToolsEnhancer());
 
 export default store;
