@@ -25,6 +25,8 @@ export const phoneBookReducer = createReducer(initialStore, {
   },
 });
 
+// without Redux Toolkit
+
 // export const phoneBookReducer = (store = initialStore, action) => {
 //   if (action.type === Type.UPDATE_FILTER) {
 //     return {

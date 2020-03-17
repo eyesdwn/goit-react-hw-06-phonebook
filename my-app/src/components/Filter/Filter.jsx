@@ -4,7 +4,7 @@ import styles from './Filter.module.css';
 
 const Filter = ({ onChangeFilter }) => {
   return (
-    <>
+    <form>
       <label htmlFor="filter">
         Find contacts by name
         <input
@@ -15,7 +15,7 @@ const Filter = ({ onChangeFilter }) => {
           onChange={onChangeFilter}
         />
       </label>
-    </>
+    </form>
   );
 };
 
